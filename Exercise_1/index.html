@@ -2,10 +2,13 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Exercise 1</title>
-  <link rel="stylesheet" href="style.css">
+<title>Exercise 1</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- Main content wrapper -->
+<div id="mainContent">
 
 <!-- Logo -->
 <h1 class="title">
@@ -23,7 +26,7 @@
     <p><strong>Birthday:</strong> April 4, 2002</p>
     <p><strong>School:</strong> Pamantasan Ng Lungsod Ng Muntinlupa</p>
     <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
-    <p><strong>Hobbies:</strong> Basketball, Gaming, Watching Anime, Reading</p>
+    <p><strong>Hobbies:</strong> Basketball, Gaming, Watching Anime, Reading Manga</p>
   </div>
 
   <!-- Magpantay -->
@@ -52,7 +55,7 @@
   
   <!-- Guanzon -->
   <div class="profile-card">
-<p class="quote">"Walang mainit na kape, sa matigas mong tinapay."</p>
+    <p class="quote">"Walang mainit na kape, sa matigas mong tinapay."</p>
     <img src="images/Juliana.jpg" alt="Picture of Juliana Lorraine Guanzon" class="profile-img">
     <h2>Juliana Lorraine Guanzon</h2>
     <p><strong>Age:</strong> 20</p>
@@ -62,6 +65,16 @@
     <p><strong>Hobbies:</strong> Watching K-drama series, Playing with my dogs, Billard </p>
   </div>
 </div>
+</div> <!-- End of mainContent -->
+
+<!-- Modal -->
+<div id="profileModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <div id="modalDetails"></div>
+  </div>
+</div>
+
 <!-- Script -->
 <script src="script.js"></script>
 </body>
