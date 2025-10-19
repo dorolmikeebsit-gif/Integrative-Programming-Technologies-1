@@ -2,7 +2,7 @@
 
 //associative array
 $array = array(
-    'name' => 'Maria',
+    'name' => 'Mikee',
     'age' => 21,
     'course' => 'IT'
 );
@@ -10,4 +10,5 @@ $array = array(
 $jsonString = json_encode($array);
 
 echo $jsonString;
+
 ?>
